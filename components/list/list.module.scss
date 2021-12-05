@@ -1,0 +1,26 @@
+.list {
+  padding: 40px 0;
+
+  &__nav {
+    margin: 15px 0 0;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin: 0 0 8px;
+    }
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.15s linear;
+
+    &:hover,
+    &:focus {
+      color: #ff6767;
+    }
+  }
+}

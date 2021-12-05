@@ -1,0 +1,16 @@
+/*--------------------
+  GLOBAL STYLES
+--------------------*/
+
+// HELPERS
+// Variables and mixins
+@import "helpers/utils";
+
+// LIBS
+// external libraries
+@import "libs/normalize";
+
+// BASE
+// Base styles
+@import "base/fonts";
+@import "base/common";

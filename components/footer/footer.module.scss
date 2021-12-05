@@ -1,0 +1,36 @@
+@import "../../styles/helpers/utils";
+
+.footer {
+  padding: 10px 0;
+  background-color: $black;
+  color: $white;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 0;
+  }
+
+  &__dev {
+    color: $white;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  &__logo {
+    font-size: 30px;
+    line-height: 36px;
+    color: $white;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
